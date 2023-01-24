@@ -1,0 +1,12 @@
+package go.skillbox.data.features.network.retrofit.dto.parts.feature.properties
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+import go.skillbox.domain.entities.parts.feature.properties.Preview
+
+@JsonClass(generateAdapter = true)
+data class PreviewDto(
+    @Json(name = "source") override val sourceUrl: String?,
+    @Json(name = "height") override val height: Int?,
+    @Json(name = "width") override val width: Int?
+) : Preview

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340669283170",
+    "project_id": "simple-attractions-navigator",
+    "storage_bucket": "simple-attractions-navigator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340669283170:android:0af54c7eecd81bb5d40a3b",
+        "android_client_info": {
+          "package_name": "go.skillbox.simplenavigator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340669283170-nooo1acddo0q42e74h68og946em1l627.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWLzH27OhDkHZpzwU3ACN46E19Eg8Gq8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340669283170-nooo1acddo0q42e74h68og946em1l627.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

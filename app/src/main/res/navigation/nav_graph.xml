@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMapsFragment">
+
+    <fragment
+        android:id="@+id/mainMapsFragment"
+        android:name="go.skillbox.simplenavigator.ui.maps.MainMapsFragment"
+        android:label="Google Map"
+        tools:layout="@layout/fragment_main_maps">
+        <action
+            android:id="@+id/action_mainMapsFragment_to_featureDetailsFragment"
+            app:destination="@id/featureDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/featureDetailsFragment"
+        android:name="go.skillbox.simplenavigator.ui.maps.FeatureDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_feature_details" />
+</navigation>
